@@ -56,8 +56,8 @@ ul{
     float: right;
     max-height: 478px;
     max-width: 304px;
-    margin-top: 162px;
-    margin-right: 130px;
+    margin-top: 185px;
+    margin-right: 68px;
     border: 1px;
     border-radius: 50px;
 
@@ -132,6 +132,7 @@ ul{
     border-radius:30px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7) ;
     width: 15%;
+    
 }
 
 .containiner .row .item img{
