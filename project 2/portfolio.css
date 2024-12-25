@@ -55,13 +55,37 @@ ul{
 .PhotoMe img{
     float: right;
     max-height: 478px;
-    max-width: 304px;
-    margin-top: 185px;
-    margin-right: 68px;
+    max-width: 388px;
+    margin-top: 130px;
+    margin-right: 103px;
     border: 1px;
     border-radius: 50px;
 
-   }
+}
+
+.content h1{
+    font-size: 52px;
+    color: #064420;
+}
+
+.content h3{
+    font-size: 30px;
+    color: #064420;
+}
+
+.content h5{
+    font-size: 23px;
+    color: #064420;
+}
+
+.content p{
+    font-size: 20px;
+    color: #064420;
+    text-align: inherit; 
+
+}
+
+
 
 #home .header{
 
@@ -128,11 +152,17 @@ ul{
 .containiner .row .item{
     border: 2px solid#064420;
     background-color: #064420;
+    color: #D8E9A8;
     padding: 50px;
     border-radius:30px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7) ;
     width: 15%;
-    
+    transition: all 1s; 
+}
+
+.containiner .row .item:hover{
+    background-color: #D8E9A8;
+    color: #064420;
 }
 
 .containiner .row .item img{
@@ -143,8 +173,8 @@ ul{
 .containiner .row .item p{
     text-align: center; 
     font-size: 32px;
-    color: #D8E9A8;
 }
+
 
 
 /* Projects */
@@ -272,13 +302,15 @@ ul{
 
 #contact .containinerB .col form{
     padding-left: 0%;
-    margin-top: 277px;
+    padding-top: 165px;
+    
 
 }
 
 
 .col img{
-    width: 60%;
+    width: 49%;
+    padding-top: 33px;
     padding-right: 15px;
     
 }
@@ -345,7 +377,7 @@ form .submit:hover{
     border-radius:30px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7) ;
     width: 15%;
-    height: 28vw;
+    height: 450px;
 }
 
 .reference .row .item img{
@@ -364,6 +396,25 @@ form .submit:hover{
     color: #D8E9A8;
 }
 
+.reference .row .item .sol{
+    padding-top: 15px;
+    padding-left: 90px;
+
+}
+
+.reference .row .item .sol i{
+    font-size: 15px;
+    padding: 8px;
+    color: #064420;
+    background-color: #D8E9A8;
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+
+.reference .row .item .sol i:hover{
+    color: black;
+}
 
 
 /* footer  */
@@ -384,10 +435,17 @@ footer{
     gap: 15px;
 }
 
-.logo{
-    margin-top: -36px;
+.logo{ 
     width: 37%;
 }
+
+
+.footer .logo p{
+    color: #D8E9A8;
+    text-align:inherit;
+
+}
+
 
 .footer .links ul a{
     color: #D8E9A8;
@@ -402,11 +460,12 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-right: 20px;
+    
     padding-top: 20px;
 }
 
 .social{
+    padding-top: 42px;
     margin-left: 46%;
     margin-bottom: 10px;
      color: #D8E9A8;
@@ -419,7 +478,12 @@ footer{
     color: #064420;
     background-color: #D8E9A8;
     border-radius: 50%;
+    transition: all 1s;
 
+}
+
+.social i:hover{
+    color: black;
 }
 
 
@@ -497,10 +561,21 @@ footer{
 
 
 
+/*
+
+.PhotoMe img{
+    float: right;
+    max-height: 478px;
+    max-width: 304px;
+    margin-top: 185px;
+    margin-right: 68px;
+    border: 1px;
+    border-radius: 50px;
+
+   }
 
 
-
-
+*/
 
 
 
@@ -524,6 +599,31 @@ footer{
     border-radius: 50px;
     
     }
+
+
+    
+.content h1{
+    font-size: 40px;
+    color: #064420;
+}
+
+.content h3{
+    font-size: 23px;
+    color: #064420;
+}
+
+.content h5{
+    font-size: 17px;
+    color: #064420;
+}
+
+.content p{
+    font-size: 17px;
+    color: #064420;
+    text-align: inherit; 
+
+}
+
 
 #home .header .content-1 .content{
     display: inline-block;
@@ -572,7 +672,8 @@ footer{
 
 
 .col img{
-    padding-left: 85px;
+    width: 74%;
+    padding-left: 48px;
 }
 
 .containiner .row .item p{
@@ -591,7 +692,8 @@ footer{
 
 #contact .containinerB .col form{
     padding-left: 1%;
-    margin-top: -7px;
+    padding-top: 10px;
+    
 
 }
 
@@ -609,14 +711,14 @@ form .textarea{
 }
 
 .reference .row .item{
-   
-    height: 92vw;
+    width: 173px;
+    height: 320px;
 }
 
 .reference .row .item  img{
-    height: 162px;
-    width: 164px;
-    margin-top: --53px;
+    height: 220px;
+    width: 247px;
+   
 }
 
 .reference .row .item p{
@@ -625,26 +727,39 @@ form .textarea{
     
 }
 
+.reference .row .item .sol{
+    padding-top: 7px;
+    padding-left: 56px;
+
+}
+
+
+
 .footer{
     height: max-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly; 
-    align-items:start ;
+    align-items:center ;
     gap: 15px;
+    flex-direction: column;
 }
 
+
 .logo{
-    margin-top: 14px;
+    padding-top: 14px;
     width: 56%;
     height: 20%;
+
+}
+
+.logo p{
+    text-align: center;
 }
 
 .footer .links .lin{
-    margin-right: 10px;
     text-align: center;
-    display: flex;
-    gap: 20px;;    
+      
 }
 
 .social {
